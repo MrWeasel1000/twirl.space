@@ -1,10 +1,16 @@
-function playVideo() {
-  // Get the video element.
-  var video = document.querySelector("img");
+import React from "react";
+import Stream from "cloudflare/stream-react";
 
-  // Play the video.
-  video.play();
-}
+const App = () => {
+  return (
+    <div>
+      <Stream
+        src="https://stream.cloudflare.com/videos/my-video.mp4"
+        autoPlay
+        loop
+      ></Stream>
+    </div>
+  );
+};
 
-// Add a click event listener to the video element.
-video.addEventListener("click", playVideo);
+export default App;
