@@ -1,16 +1,15 @@
-import React from "react";
-import Stream from "cloudflare/stream-react";
+import Image from "next/image";
 
 const App = () => {
   return (
     <div>
-      <Stream
-        src="https://stream.cloudflare.com/videos/my-video.mp4"
-        autoPlay
-        loop
-      ></Stream>
+      <Image
+        src="https://i.postimg.cc/Dzdpg1PP/IMG-0461.jpg"
+        alt="Streaming Service"
+      ></Image>
     </div>
   );
 };
 
 export default App;
+
