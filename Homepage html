@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>Streaming Service</h1>
-<img src="https://i.postimg.cc/Dzdpg1PP/IMG-0461.jpg" alt="Streaming Service">
+<iframe src="https://www.youtube.com/embed/videoId" allowfullscreen></iframe>
 <script src="script.js"></script>
 </body>
 </html>
