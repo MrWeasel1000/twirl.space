@@ -1,0 +1,10 @@
+function playVideo() {
+  // Get the video element.
+  var video = document.querySelector("img");
+
+  // Play the video.
+  video.play();
+}
+
+// Add a click event listener to the video element.
+video.addEventListener("click", playVideo);
