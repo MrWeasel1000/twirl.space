@@ -1,15 +1,10 @@
-import Image from "next/image";
+function playVideo() {
+  // Get the video element.
+  var video = document.querySelector("iframe");
 
-const App = () => {
-  return (
-    <div>
-      <Image
-        src="https://i.postimg.cc/Dzdpg1PP/IMG-0461.jpg"
-        alt="Streaming Service"
-      ></Image>
-    </div>
-  );
-};
+  // Play the video.
+  video.play();
+}
 
-export default App;
-
+// Add a click event listener to the video element.
+video.addEventListener("click", playVideo);
