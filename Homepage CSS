@@ -1,0 +1,13 @@
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+img {
+  width: 100%;
+}
